@@ -1,0 +1,99 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Test.Models
+{
+    public partial class Is00Host
+    {
+        public string DefiMovOriginale { get; set; }
+        public string DefiNumSinistro { get; set; }
+        public string DefiNumSinAgenz { get; set; }
+        public DateTime DataAvvenimento { get; set; }
+        public DateTime DataDenuncia { get; set; }
+        public DateTime DataPervenimento { get; set; }
+        public DateTime DataRegistrazione { get; set; }
+        public string DefiNumCumulo { get; set; }
+        public string TestDescrizione { get; set; }
+        public string DefiNumPolizza { get; set; }
+        public string DefiNumMovimento { get; set; }
+        public string DefiContraente { get; set; }
+        public string De11Contraente { get; set; }
+        public DateTime DataEffettoPol { get; set; }
+        public DateTime DataScadenzaPol { get; set; }
+        public decimal AnnoCompetenza { get; set; }
+        public string CateAccount { get; set; }
+        public string CatePregresso { get; set; }
+        public string CateNazContraent { get; set; }
+        public string CateInteresTrasp { get; set; }
+        public string CateSettore { get; set; }
+        public string CateAreaLavoro { get; set; }
+        public string CateDanni { get; set; }
+        public string CateCoassicur { get; set; }
+        public string De11CompCedente { get; set; }
+        public string DefiDelegataria { get; set; }
+        public decimal QutaRischioNsq { get; set; }
+        public string CateTipoPolizza { get; set; }
+        public string De11PaeseRischio { get; set; }
+        public string CateMovimentoSin { get; set; }
+        public decimal ProgMovRiserve { get; set; }
+        public decimal BoolSpeseQuota { get; set; }
+        public string De11DivisaEst { get; set; }
+        public decimal ValrMovimento { get; set; }
+        public string De11CausaNatura { get; set; }
+        public string De11RamoTecnico { get; set; }
+        public string De11RamoMinister { get; set; }
+        public string De11CodGaranzia { get; set; }
+        public string De11CodRischio { get; set; }
+        public DateTime? DataRiapertura { get; set; }
+        public decimal AnnoContabile { get; set; }
+        public decimal MeseContabile { get; set; }
+        public string De11RipartoSin { get; set; }
+        public decimal ValrMassimale { get; set; }
+        public decimal ValrFranchigia { get; set; }
+        public DateTime DataMovimento { get; set; }
+        public string CateFranchigia { get; set; }
+        public string DefiDanneggiato { get; set; }
+        public decimal? FrazInteresseEst { get; set; }
+        public decimal BoolImportato { get; set; }
+        public DateTime? DataBilancio { get; set; }
+        public decimal BoolCumuloRisc { get; set; }
+        public string DefiNumPolBase { get; set; }
+        public decimal ValrMovimOrig { get; set; }
+        public string De16CodAgenzia { get; set; }
+        public string De20CodProdotto { get; set; }
+        public string De11PaeseDeb { get; set; }
+        public string De11Broker { get; set; }
+        public string De11SubBroker { get; set; }
+        public string De11AgenziaPol { get; set; }
+        public string De11EnteDenuncia { get; set; }
+        public decimal BoolTardivo { get; set; }
+        public string De11SottoProdotto { get; set; }
+        public string De11CategoriaDan { get; set; }
+        public decimal ValrMur { get; set; }
+        public decimal ValrMpl { get; set; }
+        public string De20CodCliente { get; set; }
+        public DateTime? DataNascitaCli { get; set; }
+        public decimal? NumrRateRimbor { get; set; }
+        public decimal? BoolRimborsMef { get; set; }
+        public string DefiCognomeAssic { get; set; }
+        public string DefiNomeAssic { get; set; }
+        public string De20CodGestore { get; set; }
+        public decimal BoolClaims { get; set; }
+        public decimal NumrDurataClaims { get; set; }
+        public decimal BoolPostuma { get; set; }
+        public decimal NumrDurataPostum { get; set; }
+        public DateTime? DataEffettoMov { get; set; }
+        public string De20Lob { get; set; }
+        public string De20Gor { get; set; }
+        public string De20Cat { get; set; }
+        public string De20Rimborso { get; set; }
+        public string TipbProvincia { get; set; }
+        public string CateSesso { get; set; }
+        public string De20MacroGaranzia { get; set; }
+        public string De20StatoSinistro { get; set; }
+        public decimal? FrazInvalidita { get; set; }
+        public string De20Spese { get; set; }
+        public string TestLesioni { get; set; }
+        public string RaprLuogoSinistro { get; set; }
+    }
+}
