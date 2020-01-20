@@ -28,9 +28,9 @@ namespace Test
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
             if (ConsoleLog) {
                 optionsBuilder.UseLoggerFactory(GetLoggerFactory())
-                    .EnableSensitiveDataLogging().UseSqlServer(@"Server=atumai.database.windows.net; Database = Wise; Persist Security Info = False; Encrypt = True; TrustServerCertificate = False; User ID = atum; Password = TdwyNPTTZbLoy4Crf22t; ");
+                    .EnableSensitiveDataLogging().UseSqlServer("");
             } else {
-                optionsBuilder.UseSqlServer(@"Server=atumai.database.windows.net; Database = Wise; Persist Security Info = False; Encrypt = True; TrustServerCertificate = False; User ID = atum; Password = TdwyNPTTZbLoy4Crf22t; ");
+                optionsBuilder.UseSqlServer("");
 
             }
         }
